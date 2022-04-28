@@ -1,0 +1,55 @@
+package exercios;
+
+public class Introdução {
+	public static void main(String[] args) {
+		
+		int i; //Variável aceita
+		//int i; //Não pode ter variáveis com o mesmo nome
+		int I; //Java é case sensitive então i é diferente de I
+		//int 1a; //Variável não pode começar com número
+		int _1a; //É permitido iniciar variável com _ ou $, mas não é indicado
+		int $aq;
+		
+		//Definindo valor inicial para as variáveis
+		i = 5;
+		I = 10;
+		_1a = 20;
+		$aq = 7;
+		
+		final int j = 10; 
+		//j = 15; // "final" é uma variável constante que não pode ter o valor alterado.
+		int asrn2428nd; //O compilador aceita, mas deve ser evitado usar numeros e letras misturados.
+		//int asrn 2428nd; // O compilador não aceita espaço na variável.
+		int asrn2428_nd = 10; //Também não é indicado usar _ ou $ no meio de uma variável, exceto com constantes, mas o compilador aceita.
+		//int asrn%2428_nd = 10; //Com exceção de _ e $, caracteres especiais não são aceitos.
+		
+		asrn2428nd = 100; //Você pode atribuir um valor à variável quando a declara ou em outras partes do programa.
+		
+		int quantidadeProduto = 50; //Essa segue as boas práticas, usa notação camelo, e o nome é expressivo.
+		
+		/*Notação camelo: quando uma váriavel tem mais de uma palavra, as primeira palavra é escrita em minisculo
+		 * e as outras palavras devem começar em maisculo.
+		 */
+		//int QuantidadeProduto; //É aceita pelo compilador mais não segue a notação mais indicada.
+		final int NUMERO_TENTATIVAS = 5; //Para constantes, o ideal é escrever tudo em maisculo e separado por _.
+		//final int numeroTentativas = 5; //Não se usa notação camelo para constantes, mas o compilador aceita.
+		int QUANTIDADE_OPCOES = 25; //Não é uma constante, por tanto o mais indicado é usar notação camelo, mas não da erro.
+		//int qtdProd; //É pouca expressiva, não é indicada mas não da erro.
+		
+		System.out.println(i);
+		System.out.println(I);
+		System.out.println(_1a);
+		System.out.println($aq);
+		
+		System.out.println(j);
+		System.out.println(asrn2428nd);
+		System.out.println(asrn2428_nd );
+		
+		System.out.println(quantidadeProduto);
+		System.out.println(NUMERO_TENTATIVAS);
+		System.out.println(QUANTIDADE_OPCOES);
+
+		
+	}
+
+}

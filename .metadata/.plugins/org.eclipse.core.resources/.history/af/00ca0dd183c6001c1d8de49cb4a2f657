@@ -1,0 +1,29 @@
+package exercios;
+
+public class Introdução {
+	public static void main(String[] args) {
+		
+		int i; //Variável aceita
+		//int i; //Não pode ter variáveis com o mesmo nome
+		int I; //Java é case sensitive então i é diferente de I
+		//int 1a; //Variável não pode começar com número
+		int _1a; //É permitido iniciar variável com _ ou $, mas não é indicado
+		int $aq;
+		
+		//Definindo valor inicial para as variáveis
+		i = 5;
+		I = 10;
+		_1a = 20;
+		$aq = 7;
+		
+		final int j = 10; 
+		//j = 15; // "final" é uma variável constante que não pode ter o valor alterado
+		int asrn2428nd; //O compilador aceita, mas deve ser evitado usar numeros e letras misturados
+		//int asrn 2428nd; // O compilador não aceita espaço na variável
+		int asrn2428_nd = 10; //Também não é indicado usar _ ou $ no meio de uma variável, mas o compilador aceita
+		//int asrn%2428_nd = 10; //Com exceção de _ e $, caracteres especiais não são aceitos
+		
+		asrn2428nd; = 100;
+	}
+
+}
