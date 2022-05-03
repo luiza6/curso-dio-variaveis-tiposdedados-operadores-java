@@ -1,0 +1,35 @@
+package exercios;
+
+public class Casting {
+
+	public static void main(String[] args) {
+		
+		//Converte um short em um byte (downcast), ocorre a perca de dados
+		byte b1;
+		short s1 = 100;
+		b1 = (byte) s1;
+		
+		//Colocamos um inteiro dentro de um longo (upcast)
+		long l1;
+		int i1 = 10;
+		l1 = i1;
+		
+		//Convertemos um long em um inteiro (downcast), terá perca de dados 
+		int i2;
+		long l2 = 1000000000000000000L;
+		i2 = (int) l2;
+		
+		//Convertemos um long em um inteiro (downcast), não terá perca de dados, pois esse valor cabe no inteiro 
+		int i3;
+		long l3 = 10000L;
+		i3 = (int) l3;
+		
+		
+		
+		
+		
+		
+
+	}
+
+}
